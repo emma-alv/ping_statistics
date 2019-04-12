@@ -1,3 +1,4 @@
-*.tmp
+ping_temp.sh
+google*
 .idea
-
+help.txt
