@@ -48,7 +48,11 @@ df_means = pd.DataFrame(df.mean(axis=0))
 df_results = df_means.transpose()
 df_results = df_results.append(df.std(axis=0), ignore_index=True)
 df_results = df_results.append(df.var(axis=0), ignore_index=True)
-df_results.rename({0:'Average',1:'Standard deviation',2:'Variance'}, inplace=True)
+df_results.rename({0: 'Average', 1: 'Standard deviation', 2: 'Variance'}, inplace=True)
 
 print(df_results)
+
+for i in listFiles:
+    df_plt = df[i].plot(kind='hist', x=i)
+    plt.savefig(i + '.png')
 
