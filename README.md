@@ -1,5 +1,7 @@
 # Ping Statistics - 411-MTP
 Simple App to compute statistics using ping command and pandas dataframes in python.
+Google Colab:
+https://colab.research.google.com/drive/1p1GCPyp2z7qY7ZT4z-YsAt6xVDjkoOnM
 
 ## Introduction
 The main target of this project is to create a simple codification which can compute simple statistics as "Time Average", "Standard Deviation" and "Variance". 
